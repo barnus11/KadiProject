@@ -1,0 +1,11 @@
+cd [libary] - Change libary
+git init - Initalization
+git remote add [name] [remote url] - To access the local branch
+git add [file] / '.' - Add a file to the local branch
+git commit -m [message] - Accept the changes and prepare the file for the upload
+git push [name] [branch] - Upload to the branch
+git fetch - Check for changes
+git pull origin [branch] - Download the changed files
+git status - Status
+git branch [name] - Create a new branch
+git checkout [name] - Change to another branch
