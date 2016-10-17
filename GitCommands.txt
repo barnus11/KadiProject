@@ -1,0 +1,9 @@
+cd chande directory
+init 
+remote add
+commit
+push 
+fetch 
+pull
+git branch Branchnév //branch hozzáadás
+git checkout BranchNév 
