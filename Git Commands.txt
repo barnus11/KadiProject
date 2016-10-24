@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 cd [directory] - Change directory to the directory in '[]'.
 
 git init - Intialize directory for cloud share.
@@ -46,3 +47,26 @@ git branch {--remote} - List branches, if '--remote' list remote branches.
 >>>>>>> 92895bb07f3defc0d7a1a1c409c07cbee81f2fb3
 
 git checkout [Name] - Download a remote branch / switch branch.
+=======
+cd [directory]	lepke váltás a kalocsaimintás hágójelben foglaltakbanbabanbanbabababababanababnababnbananna
+
+git init a mappa inicializá fing! a felhõalapúmeglopásra
+
+git remote add [ném] [rimót úerel] remóciós lokációt állít be a bennszülött ághoz 
+
+git ass [filé] hozzáakadunk egy halkfilét a helyibennszülötthöz ha . akkor minendneneneenenddnnemdne vállalkozatást hozzáaaad
+
+git commit-m [masszázs] elõkészül a kilövésre 50 traktorban
+
+git push [rimót (ném)] [brencs] kilövés a pandórára a saját brencsbe
+
+git fetch ha van a pandórában állhatatosság akkor leszedi és a kessbe teszi
+
+git pull [rimót (ném)] [brencs] a állhatosságokat menti a brencsbe
+
+git status lenyeli az összes követ a legutóbbi fagyasztott hal óta
+
+git brencs [ném] egy új ágat épít fel kemény fantomímes mozdulatok árán
+
+git checkout [ném] letölti a rimót hágat
+>>>>>>> f56b1fae1309cd88f6493781aec216f041ad1022
