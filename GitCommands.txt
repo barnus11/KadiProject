@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cd [directory] - Change directory.
 
 git init - Initialize directory for cloud.
@@ -22,3 +23,14 @@ git branch {--remote} - List branches, if '--remote" list remote branches.
 
 git checkout [Name] - Download a remote branch / switch branch.
 
+=======
+cd chande directory
+init 
+remote add
+commit
+push 
+fetch 
+pull
+git branch Branchnév //branch hozzáadás
+git checkout BranchNév 
+>>>>>>> d187c5cb329015de85aad0dc317a7d23d570a96b
