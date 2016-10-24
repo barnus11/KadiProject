@@ -1,6 +1,12 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+cd [directory] - Change directory to the directory in '[]'
+=======
+>>>>>>> bd119631a6bc6d7886d12887392a3e21770fe5ad
 cd [directory] - Change directory to the directory in '[]'.
+>>>>>>> 272716201d0296e45f01edac74ef2afffc8928e0
 
 git init - Intialize directory for cloud share.
 
@@ -43,8 +49,14 @@ git status - List changes after latest commit.
 
 git branch [Name] - Create new branch named 'Name'
 
+<<<<<<< HEAD
+git branch {--remote}
+ - List branches, if '--remote' list remote branches.
+>>>>>>> 78fc2b02c70ecd5f39ce008ee2a76f7e6213508b
+=======
 git branch {--remote} - List branches, if '--remote' list remote branches.
 >>>>>>> 92895bb07f3defc0d7a1a1c409c07cbee81f2fb3
+>>>>>>> 272716201d0296e45f01edac74ef2afffc8928e0
 
 git checkout [Name] - Download a remote branch / switch branch.
 =======
