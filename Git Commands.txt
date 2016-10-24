@@ -1,0 +1,23 @@
+cd [directory] - mappaváltás a []-ekbe lévõ mappába
+
+git init - a mappa inicializálása
+
+git remote add [name] [remote URL] - távoli hely beállítása a helyi ághoz
+
+git add [file] - hozzáad egy fájlt a helyi ághoz. Ha '.' minden változtatást hozzáadunk
+
+git commit -m f[message] - Commit local changes and prepare for upload. Message consist of 50 caracters, 
+			   discribing the main changes.
+
+git push [remote(name)] [branch] - uploading to the "remote" location, on 'branch'
+				   named branch
+
+git fetch - check for changes and download if any (cache).
+
+git pull [remote (name)] [branch] - Save changes to local branch.
+
+git status - List all changes after latest commit.
+
+git branch [name] - Create new branch named 'name'.
+
+git checkout [name] - Download a remote branch / switch branch.
