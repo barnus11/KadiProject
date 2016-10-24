@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 cd [directory] - Change directory ro the directory in '[]'.
 
 git init - Initialize directory for cloud share.
@@ -21,3 +22,28 @@ git branch [Name] - Create new branch named 'Name'.
 git branch {--remote}
 
 git checkout [Name] - Download a remote branch / switch branch.
+=======
+cd [directory] - mappaváltás a []-ekbe lévõ mappába
+
+git init - a mappa inicializálása
+
+git remote add [name] [remote URL] - távoli hely beállítása a helyi ághoz
+
+git add [file] - hozzáad egy fájlt a helyi ághoz. Ha '.' minden változtatást hozzáadunk
+
+git commit -m f[message] - Commit local changes and prepare for upload. Message consist of 50 caracters, 
+			   discribing the main changes.
+
+git push [remote(name)] [branch] - uploading to the "remote" location, on 'branch'
+				   named branch
+
+git fetch - check for changes and download if any (cache).
+
+git pull [remote (name)] [branch] - Save changes to local branch.
+
+git status - List all changes after latest commit.
+
+git branch [name] - Create new branch named 'name'.
+
+git checkout [name] - Download a remote branch / switch branch.
+>>>>>>> 172a6592347909905de1c24fe89268426732cabc
