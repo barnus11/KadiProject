@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+cd [directory] - Change directory.
+
+git init - Initialize directory for cloud.
+
+git remote add [name] [remote-URL] - Add remote location to the local branch.
+
+git add [file] - Add a file to the local branch. If '.' then all changes are added.
+
+git commit -m [message] - Commit local changes and prepare for upload. Message consists of 50 characters, discribing the main changes.
+
+git push [remote (Name)] [branch] - Uploading to the "remote" location, "branch" named branch.
+
+git fetch - Check for changes and download if any (cache).
+
+git pull [remote (Name)] [branch] - Save changes to local branch.
+
+git status - List all changes after latest commit.
+
+git branch [Name] - Create new branch named "Name".
+
+git branch {--remote} - List branches, if '--remote" list remote branches. 
+
+git checkout [Name] - Download a remote branch / switch branch.
+
+=======
 cd chande directory
 init 
 remote add
@@ -7,3 +33,4 @@ fetch
 pull
 git branch Branchnév //branch hozzáadás
 git checkout BranchNév 
+>>>>>>> d187c5cb329015de85aad0dc317a7d23d570a96b
