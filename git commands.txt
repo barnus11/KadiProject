@@ -1,12 +1,23 @@
-cd [directory] - change directory to the directory in []
-git init - initialize directory for cloud sharing
-git remote add [name] [remote-url] - add remote location to the local branch
-git add [file] - add file to local branch. '.' to add all
-git commit -m [message] - commit local changes and prepare for upload. message <= 50 chars
-git push [remote] [branch] - upload to the [remote] location on the [branch] branch 
-git fetch - searches for and downloads changes to cache 
-git pull [remote] [branch] - overwrites files
-git status - lists all changes since last commit
-git branch [name] - creates new branch
-git branch {--remote} - --remote lists remote branches otherwise lists local branches 
-git checkout [name] - download new branch/switch to another branch
+cd [directory] - Change directory to the directory in '[]'.
+
+git init - Initialize directory for cloud share.
+
+git remote add [name] [remote-URL] - Add remote location to the local branch.
+
+git add [file] - Add a file to the local branch. If '.' then all changes are added.
+
+git commit -m [message] - Commit local changes and prepare for upload. Message consists of 50 characters, discribing the main changes.
+
+git push [remote (Name)] [branch] - Uploading to the "remote" location, on 'branch' named branch.
+
+git fetch - Check for changes and download if any (cache).
+
+git pull [remote (Name)] [branch] - Save changes to local branch.
+
+git status - List all changes after latest commit.
+
+git branch [Name] - Create new branch named 'Name'.
+
+git branch {--remote} - List branches, if '--remote' list remote branches. 
+
+git checkout [Name] - Download a remote branch / switch branch.
