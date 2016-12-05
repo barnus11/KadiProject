@@ -1,24 +1,27 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class IngameStatTracker : MonoBehaviour
 {
-    public Object healthDisplayUnit;
+    public GameObject healthDisplayUnit;
+    public RectTransform parentTransform;
     public Canvas canvas;
     public int prevHealth = 0;
     public int health;
-    Object[] healthDisplay;
+    GameObject[] healthDisplay;
     void Update()
     {
         if (health != prevHealth)
         {
             for (int i = 0; i < prevHealth; i++)
                 Destroy(healthDisplay[i]);
-            healthDisplay = new Object[health];
+            healthDisplay = new GameObject[health];
+            RectTransform canvasRectTransform = canvas.GetComponent<RectTransform>();
             for (int i = 0; i < health; i++)
             {
-                healthDisplay[i] = (Instantiate(healthDisplayUnit, new Vector3(i * 40, 50, 0), new Quaternion(0, 0, 0, 0), canvas.transform));
+                healthDisplay[i] = (GameObject)Instantiate(healthDisplayUnit, new Vector2(0,0), new Quaternion(0, 0, 0, 0), parentTransform);
+                healthDisplay[i].GetComponent<Transform>().localPosition = new Vector2(parentTransform.rect.xMin + 30*i, parentTransform.rect.height - 10);
             }
+            prevHealth = health;
         }
     }
 }

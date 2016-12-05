@@ -48,6 +48,7 @@
      <Compile Include="Assets\scripts\CanvasOpenCloseScript.cs" />
      <Compile Include="Assets\scripts\ExitScript.cs" />
      <Compile Include="Assets\scripts\FullScreenButtonScript.cs" />
+     <Compile Include="Assets\scripts\HpPlus.cs" />
      <Compile Include="Assets\scripts\IngameStatTracker.cs" />
      <Compile Include="Assets\scripts\MuteButtonScript.cs" />
      <Compile Include="Assets\scripts\SceneSwitchButtonScript.cs" />
