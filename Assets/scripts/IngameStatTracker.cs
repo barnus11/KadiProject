@@ -19,7 +19,7 @@ public class IngameStatTracker : MonoBehaviour
             for (int i = 0; i < health; i++)
             {
                 healthDisplay[i] = (GameObject)Instantiate(healthDisplayUnit, new Vector2(0,0), new Quaternion(0, 0, 0, 0), parentTransform);
-                healthDisplay[i].GetComponent<Transform>().localPosition = new Vector2(parentTransform.rect.xMin + 30*i, parentTransform.rect.height - 10);
+                healthDisplay[i].GetComponent<Transform>().localPosition = new Vector2(parentTransform.rect.xMin + 20 + 30*i, parentTransform.rect.height - 20);
             }
             prevHealth = health;
         }

@@ -14,7 +14,7 @@ Platform assembly: D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\Uni
 Loading D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.047 seconds
+- Completed reload, in  0.048 seconds
 Platform assembly: D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
@@ -26,22 +26,38 @@ The referenced script on this Behaviour (Game Object 'EventSystem') is missing!
  
 (Filename:  Line: 1656)
 
-UnloadTime: 0.687017 ms
+UnloadTime: 0.709721 ms
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 5.374223 ms
+UnloadTime: 5.649466 ms
 
-Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 189.
-Total: 2.342514 ms (FindLiveObjects: 0.016483 ms CreateObjectMapping: 0.019904 ms MarkObjects: 0.130623 ms  DeleteObjects: 2.174881 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 206.
+Total: 2.768596 ms (FindLiveObjects: 0.023947 ms CreateObjectMapping: 0.010885 ms MarkObjects: 0.162035 ms  DeleteObjects: 2.571416 ms)
 
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 130c -> priority: 1 
+  Thread -> id: 1f14 -> priority: 1 
 The referenced script on this Behaviour (Game Object 'EventSystem') is missing!
  
 (Filename:  Line: 1656)
 
 Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.385650 ms
+UnloadTime: 0.469000 ms
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 280.
-Total: 0.270888 ms (FindLiveObjects: 0.019593 ms CreateObjectMapping: 0.019593 ms MarkObjects: 0.209308 ms  DeleteObjects: 0.021770 ms)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 281.
+Total: 0.316917 ms (FindLiveObjects: 0.028301 ms CreateObjectMapping: 0.028612 ms MarkObjects: 0.228591 ms  DeleteObjects: 0.030789 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.769123 ms
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 206.
+Total: 3.193122 ms (FindLiveObjects: 0.023947 ms CreateObjectMapping: 0.009952 ms MarkObjects: 0.182561 ms  DeleteObjects: 2.975727 ms)
+
+The referenced script on this Behaviour (Game Object 'EventSystem') is missing!
+ 
+(Filename:  Line: 1656)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.473665 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 281.
+Total: 0.484550 ms (FindLiveObjects: 0.051938 ms CreateObjectMapping: 0.015239 ms MarkObjects: 0.369788 ms  DeleteObjects: 0.046651 ms)
 
