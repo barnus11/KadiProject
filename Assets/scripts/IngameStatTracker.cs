@@ -18,8 +18,8 @@ public class IngameStatTracker : MonoBehaviour
             RectTransform canvasRectTransform = canvas.GetComponent<RectTransform>();
             for (int i = 0; i < health; i++)
             {
-                healthDisplay[i] = (GameObject)Instantiate(healthDisplayUnit, new Vector2(0,0), new Quaternion(0, 0, 0, 0), parentTransform);
-                healthDisplay[i].GetComponent<Transform>().localPosition = new Vector2(parentTransform.rect.xMin + 20 + 30*i, parentTransform.rect.height - 20);
+                healthDisplay[i] = (GameObject)Instantiate(healthDisplayUnit, new Vector3(0,0,0), new Quaternion(0, 0, 0, 0), parentTransform);
+                healthDisplay[i].GetComponent<Transform>().localPosition = new Vector3(parentTransform.rect.xMin + 20 + 30*i, parentTransform.rect.height - 20,-10);
             }
             prevHealth = health;
         }
