@@ -1,23 +1,23 @@
 ﻿using System;
-using System.Drawing;
+using UnityEngine;
 
 public class BitmapReader
 {
-    private Bitmap bitmap;
+    private Texture2D bitmap;
 
-	public BitmapReader(String fileName)
+	public BitmapReader(Texture2D bitmap)
 	{
-        bitmap = new Bitmap(fileName);
+        this.bitmap = bitmap;
 	}
 
-    public Int16[] getBitmapSize()
+    public int[] getBitmapSize()
     {
-        return new Int16[] { Convert.ToInt16(bitmap.Width), Convert.ToInt16(bitmap.Height) };
+        return new int[] {bitmap.width, bitmap.height};
     }
 
-    public Int16[] getPixelColorAsInt(Int16 xCoordinate, Int16 yCoordinate)
+    public int getPixelColorAsInt(int xCoordinate, int yCoordinate)
     {
         Color pixelColor = bitmap.GetPixel(xCoordinate, yCoordinate);
-        return new Int16[] {pixelColor.R};
+        return (int)(pixelColor.r * 255);
     }
 }
