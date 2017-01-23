@@ -1,7 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+using System.Collections.Generic;
+
 public class DropdownToggleButtonScript : MonoBehaviour {
+    public List<ItemListElementScript> elements = new List<ItemListElementScript>();
     public int members = 1;
     public RectTransform panelTransform;
     public CanvasGroup canvas;

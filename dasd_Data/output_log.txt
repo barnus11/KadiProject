@@ -14,7 +14,7 @@ Platform assembly: D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\Uni
 Loading D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
 Platform assembly: D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
 Loading D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-- Completed reload, in  0.046 seconds
+- Completed reload, in  0.044 seconds
 Platform assembly: D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: D:\Kiss Márk András 11P\unity project\dasd_Data\Managed\System.dll (this message is harmless)
 desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
@@ -26,6 +26,6 @@ The referenced script on this Behaviour (Game Object 'EventSystem') is missing!
  
 (Filename:  Line: 1656)
 
-UnloadTime: 0.743619 ms
+UnloadTime: 0.981535 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 1880 -> priority: 1 
+  Thread -> id: 2104 -> priority: 1 
